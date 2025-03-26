@@ -1,26 +1,24 @@
 name = "ZXCalculusForCAP"
 uuid = "7f222522-6553-468a-9ae8-e55a72f59a4e"
-authors = [
-	"Fabian Zickgraf <f.zickgraf@dashdos.com>",
-]
+authors = ["Fabian Zickgraf <f.zickgraf@dashdos.com>"]
 version = "0.1.2"
 
 [deps]
 CAP = "d64df2ee-d2bb-46f4-8cbc-f03bb858f8cb"
-MonoidalCategories = "bfd98c86-782f-4b94-909f-74167f1eb613"
 CartesianCategories = "c5961c08-7b59-43f4-a15e-02b3e7c87ab8"
-Toposes = "36a15fe6-6211-457f-8fdb-aa2e0d2f3052"
 FinSetsForCAP = "0a079e9b-4bc2-44fe-a89b-7607e4464786"
 JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
+MonoidalCategories = "bfd98c86-782f-4b94-909f-74167f1eb613"
+Toposes = "36a15fe6-6211-457f-8fdb-aa2e0d2f3052"
 
 [compat]
-julia = "1.11"
-CAP = "0.1, 0.2, 0.3"
-MonoidalCategories = "0.1"
+CAP = "0.1, 0.2, 0.3, 0.4"
 CartesianCategories = "0.1"
-Toposes = "0.1"
 FinSetsForCAP = "0.1"
 JSON3 = "1.14"
+MonoidalCategories = "0.1"
+Toposes = "0.1"
+julia = "1.11"
 
 [extras]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
